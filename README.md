@@ -1,4 +1,5 @@
 # Heartbleed
+This Heartbleed vulnerability set-up/exploit/patche was done for Cyber module assingment 1. 
 
 # Environment Setup
 Download bee-box VM that contain BWAPP .Link to download bee- box https://sourceforge.net/projects/bwapp/files/bee-box/bee-box_v1.6.7z/download
@@ -49,3 +50,8 @@ sudo apt-get install openssl
 In order to check  weather the version is updated run openssl version -a command and inspect it .
 if it is successsfully updated try attck again and see ,it wont be vulnerable to heartbleed 
 
+# references 
+
+https://hakin9.org/detecting-and-exploiting-the-openssl-heartbleed-vulnerability/
+https://www.ehacking.net/2020/02/how-to-exploit-heartbleed-using-metasploit-in-kali-linux.html
+https://www.youtube.com/watch?v=SgJm0C6jzbo&t=1s
