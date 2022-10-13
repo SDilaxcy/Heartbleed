@@ -40,7 +40,8 @@ Enter show info , it expands with functionality of actions  (DUMP,KEYS,SCAN)
 
 Type set action SCAN, and type run  it will return this test of the server is vulnerable to Heartbleed 3 Type set action DUMP, and type run it will dump the memory leak to bin file open another terminal and go to the path of the bin file and type strings [bin file name] .which will return dump where we can find few sensible data . Its not possible to get sensible data at one exploitation . when you repeating the process you may access data like username password , session cookies and all .
 
-Another way is exploit it by using python script .download the python script attached .by using this you can open dump in to terminal window .I have added some python script which allow you to make multiple heartbeat request at a  time al response will append into one file .so you wont to do repeat attack to exploit it . At the very first attempt you will able to get the login credentials. 
+Another way is exploit it by using python script .download the python script attachedhttps://github.com/SDilaxcy/Heartbleed/blob/4102f2b36d1e9aa64ba5b6e398f78e34bdc6a2ce/Heartbleed.py
+by using this you can open dump in to terminal window .I have added some python script which allow you to make multiple heartbeat request at a  time al response will append into one file .so you wont to do repeat attack to exploit it . At the very first attempt you will able to get the login credentials. 
 
 # Patch 
 
